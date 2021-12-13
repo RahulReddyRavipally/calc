@@ -1,6 +1,6 @@
 import {ContainerConfiguration, Scope} from 'typescript-ioc';
-import {HelloWorldApi} from './hello-world.api';
-import {HelloWorldService} from './hello-world.service';
+import {HelloWorldApi} from './calc.api';
+import {HelloWorldService} from './calc.service';
 
 const config: ContainerConfiguration[] = [
   {
